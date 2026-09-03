@@ -3,9 +3,9 @@
 This is a complete starter website for Sisterhood Sitters.
 
 ## Before publishing
-1. Open `script.js`.
+1. Open `alisonphillip09@gmail.com`.
 2. Change:
-   REPLACE_WITH_YOUR_EMAIL@example.com
+   alisonphillip09@gmail.com
    to the email address that should receive booking requests.
 3. Open `index.html` in a browser to preview the site.
 
