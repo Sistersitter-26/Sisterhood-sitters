@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/31797405/README.md)
 # Sisterhood Sitters Website
 
 This is a complete starter website for Sisterhood Sitters.
