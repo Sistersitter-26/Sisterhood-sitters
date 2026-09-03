@@ -13,7 +13,7 @@ document.querySelectorAll(".nav a").forEach(link => {
 document.getElementById("bookingForm").addEventListener("submit", function (event) {
   event.preventDefault();
 
-  if (BOOKING_EMAIL.includes("REPLACE_WITH")) {
+  if (BOOKING_EMAIL.includes("alisonphillip09@gmail.com")) {
     document.getElementById("formMessage").textContent =
       "Your form is ready! First replace the email address in script.js with your Sisterhood Sitters email.";
     return;
