@@ -1,5 +1,5 @@
 // Replace this with the email address that should receive booking requests.
-const BOOKING_EMAIL = "REPLACE_WITH_YOUR_EMAIL@example.com";
+const BOOKING_EMAIL = "alisonphillip09@gmail.com";
 
 const nav = document.querySelector(".nav");
 document.querySelector(".menu-btn").addEventListener("click", () => {
