@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sisterhood Sitters | Caring Like Family</title>
+  <meta name="description" content="Sisterhood Sitters provides caring, dependable babysitting for families in our community.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#home"><span>♡</span> Sisterhood Sitters</a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#book" class="nav-cta">Book Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <p class="eyebrow">CARE • TRUST • COMMUNITY</p>
+        <h1>Little ones deserve big love.</h1>
+        <p class="hero-copy">Sisterhood Sitters is a caring, dependable babysitting team created to give families peace of mind while their little ones have a fun and safe time.</p>
+        <div class="hero-buttons">
+          <a class="button primary" href="#book">Request a Booking →</a>
+          <a class="button secondary" href="#services">See Our Services</a>
+        </div>
+        <div class="mini-proof">
+          <div>♡ <strong>3</strong><span>caring sitters</span></div>
+          <div>♡ <strong>Local</strong><span>community focused</span></div>
+          <div>♡ <strong>Fun</strong><span>kid-friendly care</span></div>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="heart">♡</div>
+        <p>WELCOME TO</p>
+        <h2>Sisterhood<br><em>Sitters</em></h2>
+        <div class="scribble">caring like family</div>
+      </div>
+    </section>
+
+    <section class="section soft" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">MEET THE SISTERHOOD</p>
+        <h2>More than babysitters.</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p class="large">We're three friends who share a heart for kids, a commitment to being responsible, and a love for our community.</p>
+          <p>Sisterhood Sitters started with a simple idea: make finding dependable childcare easier for families we know and families who discover us through word of mouth.</p>
+          <p>Whether you need a date-night sitter, help during an event, or regular childcare, we're here to make the experience easy for both parents and kids.</p>
+        </div>
+        <div class="values">
+          <div><span>01</span><h3>Trusted</h3><p>We take responsibility seriously and communicate clearly with parents.</p></div>
+          <div><span>02</span><h3>Caring</h3><p>We want kids to feel comfortable, included, and cared for.</p></div>
+          <div><span>03</span><h3>Community</h3><p>We believe strong families and strong communities grow together.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-heading centered">
+        <p class="eyebrow">WHAT WE DO</p>
+        <h2>Babysitting that fits your life.</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="icon">♡</div>
+          <h3>Regular Babysitting</h3>
+          <p>Need a few hours to run errands, work, or get a break? We've got you.</p>
+        </article>
+        <article class="card featured">
+          <div class="icon">✦</div>
+          <h3>Date Night</h3>
+          <p>Enjoy your evening while your kids spend theirs with a fun, caring sitter.</p>
+        </article>
+        <article class="card">
+          <div class="icon">✿</div>
+          <h3>Events & Parties</h3>
+          <p>Extra hands for birthdays, church events, family gatherings, and more.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section pricing" id="pricing">
+      <div class="pricing-copy">
+        <p class="eyebrow">SIMPLE PRICING</p>
+        <h2>Clear rates.<br>Happy families.</h2>
+        <p>Our hourly rates are designed to keep childcare straightforward. For larger events or special requests, contact us for a custom quote.</p>
+      </div>
+      <div class="price-box">
+        <div class="price-row"><span>1 child</span><strong>$10<span>/hr</span></strong></div>
+        <div class="price-row"><span>2 children</span><strong>$12<span>/hr</span></strong></div>
+        <div class="price-row"><span>3+ children</span><strong>$15<span>/hr</span></strong></div>
+        <div class="event-rate"><span>🎉</span><div><strong>Birthday parties & events</strong><small>Contact us for a custom rate</small></div></div>
+      </div>
+    </section>
+
+    <section class="section booking" id="book">
+      <div class="booking-intro">
+        <p class="eyebrow">LET'S GET STARTED</p>
+        <h2>Need a sitter?</h2>
+        <p>Fill out the form and we'll get back to you with availability and next steps.</p>
+        <div class="contact-note">
+          <strong>Before booking</strong>
+          <p>Please share any allergies, routines, special instructions, or important information we should know about your child.</p>
+        </div>
+      </div>
+      <form class="booking-form" id="bookingForm">
+        <label>Your name<input type="text" name="name" placeholder="Parent/guardian name" required></label>
+        <label>Email<input type="email" name="email" placeholder="you@example.com" required></label>
+        <label>Number of children<select name="children" required>
+          <option value="">Choose one</option><option>1</option><option>2</option><option>3+</option>
+        </select></label>
+        <label>Children's ages<input type="text" name="ages" placeholder="Example: 4 and 7" required></label>
+        <label>Date<input type="date" name="date" required></label>
+        <div class="time-grid">
+          <label>Start time<input type="time" name="start" required></label>
+          <label>End time<input type="time" name="end" required></label>
+        </div>
+        <label>Location<input type="text" name="location" placeholder="General area or address" required></label>
+        <label>Anything else we should know?<textarea name="notes" rows="4" placeholder="Allergies, routines, activities, etc."></textarea></label>
+        <button class="button primary full" type="submit">Send Booking Request →</button>
+        <p class="form-note">This form opens your email app to send the request. Replace the email address in <code>script.js</code> before publishing.</p>
+        <p id="formMessage" class="form-message" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div><a class="logo" href="#home"><span>♡</span> Sisterhood Sitters</a><p>Caring like family, one little one at a time.</p></div>
+    <div class="footer-links"><a href="#about">About</a><a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#book">Book</a></div>
+    <p class="copyright">© 2026 Sisterhood Sitters. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
