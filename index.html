@@ -139,11 +139,13 @@
           <label>Start time<input type="time" name="start" required></label>
           <label>End time<input type="time" name="end" required></label>
         </div>
-        <label>Location<input type="text" name="location" placeholder="General area or address" required></label>
-        <label>Anything else we should know?<textarea name="notes" rows="4" placeholder="Allergies, routines, activities, etc."></textarea></label>
-        <button class="button primary full" type="submit">Send Booking Request →</button>
-        <p class="form-note">This form opens your email app to send the request. Replace the email address in <code>script.js</code> before publishing.</p>
-        <p id="formMessage" class="form-message" aria-live="polite"></p>
+       <div>
+  <label>Location<input type="text" name="location" placeholder="General area or address" required></label>
+</div>
+<div>
+  <label>Anything else we should know?<textarea name="notes" rows="4" placeholder="Allergies, routines, activities, etc."></textarea></label>
+</div>
+<button class="button primary full" type="submit">Send Booking Request →</button>
       </form>
     </section>
   </main>
