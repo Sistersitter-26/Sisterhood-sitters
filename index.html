@@ -139,13 +139,17 @@
           <label>Start time<input type="time" name="start" required></label>
           <label>End time<input type="time" name="end" required></label>
         </div>
-      <div style="grid-column: 1 / -1;">
-  <label>Location<input type="text" name="location" placeholder="General area or address" required></label>
-</div>
-<div style="grid-column: 1 / -1;">
-  <label>Anything else we should know?
-    <textarea name="notes" rows="2" placeholder="Allergies, routines, activities, etc." style="width: 100%; box-sizing: border-box;"></textarea>
+    <div style="grid-column: 1 / -1; width: 100%;">
+  <label style="display: block; width: 100%;">Location
+    <input type="text" name="location" placeholder="General area or address" required style="width: 100%; box-sizing: border-box;">
   </label>
+</div>
+<div style="grid-column: 1 / -1; width: 100%;">
+  <label style="display: block; width: 100%;">Anything else we should know?
+    <textarea name="notes" rows="2" placeholder="Allergies, routines, activities, etc." style="width: 100%; box-sizing: border-box; resize: vertical;"></textarea>
+  </label>
+</div>
+<button class="button primary full" type="submit" style="grid-column: 1 / -1; width: 100%;">Send Booking Request →</button>
 </div>
 <button class="button primary full" type="submit" style="grid-column: 1 / -1;">Send Booking Request →</button>
       </form>
