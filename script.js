@@ -9,3 +9,16 @@ document.querySelector(".menu-btn").addEventListener("click", () => {
 document.querySelectorAll(".nav a").forEach(link => {
   link.addEventListener("click", () => nav.classList.remove("open"));
 });
+function toggleSisters(show) {
+  const sistersSection = document.getElementById('sisters');
+  const mainSections = document.querySelectorAll('main > section:not(#sisters)');
+
+  if (show) {
+    mainSections.forEach(sec => sec.style.display = 'none');
+    sistersSection.style.display = 'block';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  } else {
+    mainSections.forEach(sec => sec.style.display = '');
+    sistersSection.style.display = 'none';
+  }
+}
